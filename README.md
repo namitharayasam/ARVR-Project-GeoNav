@@ -51,6 +51,9 @@ npx http-server
 http://127.0.0.1:8080
 ```
 
+## Vercel Deployment:
+Explore the live version of GeoNav hosted on Vercel: https://geonav.vercel.app
+
 ## **Future Enhancements**
 - **AR/VR Headset Compatibility:** Extend the project to support AR/VR headsets for full immersive experiences.
 - **Custom 3D Models:** Add the ability to load custom 3D models, such as landmarks and buildings.
