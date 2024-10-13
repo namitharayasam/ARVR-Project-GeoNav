@@ -50,3 +50,8 @@ npx http-server
 ```bash
 http://127.0.0.1:8080
 ```
+
+## **Future Enhancements**
+- **AR/VR Headset Compatibility:** Extend the project to support AR/VR headsets for full immersive experiences.
+- **Custom 3D Models:** Add the ability to load custom 3D models, such as landmarks and buildings.
+- **Enhanced Interactions:** Improve user interactions with tooltips, pop-ups, and more detailed information about geographic entities.
