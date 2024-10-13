@@ -22,6 +22,12 @@
 
 3. **Zoom and Interact**: In the 3D view, users can zoom in for a street-level view, rotate, and navigate to explore specific areas in detail. Interacting with entities like buildings allows for a more **immersive AR/VR-like experience**.
 
+## **Technologies Used**:
+- **MapTiler**: Provides high-quality 2D and 3D maps, enabling the seamless transition between 2D and 3D views.
+- **Three.js**: Powers the 3D rendering engine, providing smooth and immersive 3D navigation for an AR/VR experience.
+- **MapLibre GL JS**: An open-source library used to handle the 2D-to-3D map rendering.
+- **GLTFLoader**: Used for loading and rendering 3D models in GLTF format, which represent real-world objects (e.g., buildings, streets).
+
 ---
 
 ## **Installation**
@@ -55,6 +61,6 @@ http://127.0.0.1:8080
 Explore the live version of GeoNav hosted on Vercel: https://geonav.vercel.app
 
 ## **Future Enhancements**
-- **AR/VR Headset Compatibility:** Extend the project to support AR/VR headsets for full immersive experiences.
-- **Custom 3D Models:** Add the ability to load custom 3D models, such as landmarks and buildings.
-- **Enhanced Interactions:** Improve user interactions with tooltips, pop-ups, and more detailed information about geographic entities.
+- **AR/VR Headset Compatibility**: Extend the project to support AR/VR headsets for full immersive experiences.
+- **Custom 3D Models**: Add the ability to load custom 3D models, such as landmarks and buildings.
+- **Enhanced Interactions**: Improve user interactions with tooltips, pop-ups, and more detailed information about geographic entities.
