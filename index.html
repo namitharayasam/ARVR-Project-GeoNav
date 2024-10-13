@@ -14,14 +14,16 @@
         body {
             margin: 0;
             padding: 0;
+            width: 100%;
         }
 
-        #map,
+        #map2d,
         #map3d {
             position: absolute;
             top: 0;
             bottom: 0;
             width: 100%;
+            height: 100%;
         }
 
         #map3d {
@@ -35,8 +37,8 @@
 <body>
 
     <!-- Divs to hold 2D and 3D maps -->
-    <div id="map"></div>
-    <div id="map3d"></div>
+    <div id="map2d"></div>
+    <div id="map3d" style="height: 100%; width: 100%;"></div>
 
     <script>
         const key = '3abJ3EzNbDZOVrnoMgnT'; // Replace with your MapTiler API key
@@ -45,10 +47,10 @@
 
         // Initialize 2D map using MapLibre GL JS and MapTiler style
         const map2d = new maplibregl.Map({
-            container: 'map',
+            container: 'map2D',
             style: `${style2D}?key=${key}`,
-            center: [0, 0],  // Starting coordinates (you can set this as needed)
-            zoom: 12,         // Starting zoom level
+            center: [77.58337244021612,12.96964725952364],  // Starting coordinates
+            zoom: 8,         // Starting zoom level
         });
 
         // Initialize 3D map (hidden initially)
@@ -71,7 +73,7 @@
             if (e.originalEvent.shiftKey) {  // This is correct for MapLibre GL JS
                 // Show the 3D map and hide the 2D map
                 document.getElementById('map3d').style.display = 'block';
-                document.getElementById('map').style.display = 'none';
+                document.getElementById('map2d').style.display = 'none';
 
                 // Fly to the clicked coordinates with 3D details
                 map3d.flyTo({
@@ -94,7 +96,7 @@
         returnButton.style.zIndex = '1';
         returnButton.onclick = () => {
             // Hide 3D map and show 2D map again
-            document.getElementById('map').style.display = 'block';
+            document.getElementById('map2d').style.display = 'block';
             document.getElementById('map3d').style.display = 'none';
         };
         document.body.appendChild(returnButton);
