@@ -58,7 +58,7 @@ http://127.0.0.1:8080
 ```
 
 ## Vercel Deployment:
-Explore the live version of GeoNav hosted on Vercel: https://geonav.vercel.app
+Explore GeoNav hosted on Vercel: https://arvr-project-geo-nav.vercel.app/
 
 ## **Future Enhancements**
 - **AR/VR Headset Compatibility**: Extend the project to support AR/VR headsets for full immersive experiences.
