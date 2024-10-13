@@ -31,8 +31,23 @@ To run **GeoNav** locally, follow these steps:
 ### **1. Clone the repository**:
 ```bash
 git clone https://github.com/your-username/GeoNav.git
-###
+```
 
 ### **2. Navigate to the project directory**:
 ```bash
 cd GeoNav
+```
+
+### **3. Install dependencies**:
+```bash
+npm install
+```
+### **4.  Start the local server**:
+```bash
+npx http-server
+```
+### **5.  Access the project in your browser**:
+```bash
+[npx http-server](http://127.0.0.1:8080
+)
+```
