@@ -36,7 +36,7 @@ To run **GeoNav** locally, follow these steps:
 
 ### **1. Clone the repository**:
 ```bash
-git clone https://github.com/your-username/GeoNav.git
+git clone https://github.com/namitharayasam/ARVR-Project-GeoNav.git
 ```
 
 ### **2. Navigate to the project directory**:
